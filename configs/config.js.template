@@ -1,0 +1,16 @@
+const config = {
+    http: { port: 8012 },
+    https: { port: 8012 },
+    db: {
+        host: 'localhost',
+        user: 'eluser',
+        password: 'lapass',
+        database: 'labase',
+        instanceName: null
+    },
+    jwt: {
+        llave: "lallave"
+    }
+};
+
+exports.config = config;
